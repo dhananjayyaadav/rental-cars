@@ -1,0 +1,29 @@
+{
+  "name": "rent-car",
+  "version": "1.0.0",
+  "description": "Car Rental System development with NestJS & ReactJS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev-frontend\" \"npm run dev-backend\"",
+    "dev-frontend": "cd frontend && npm start",
+    "dev-backend": "cd backend && npm run start:dev",
+    "frontend-install": "cd frontend && npm install",
+    "backend-install": "cd backend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLucho/car-rental-agency.git"
+  },
+  "author": "Lucho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OLucho/car-rental-agency/issues"
+  },
+  "homepage": "https://github.com/OLucho/car-rental-agency#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
